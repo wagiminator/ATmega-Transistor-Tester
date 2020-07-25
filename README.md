@@ -1,4 +1,4 @@
-# Transistor Tester based on ATmega328ü
+# Transistor Tester based on ATmega328p
 Small version of the famous Transistor Tester developed by Markus F. and Karl-Heinz Kübbeler featuring automatic detection of NPN and PNP bipolar transistors, N- and P-channel MOSFETs, JFETs, diodes, double diodes, N- and P-IGBTs, thyristors, triacs, inductors, resistors and capacitors.
 
 |Component|Measuring Range|
