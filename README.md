@@ -17,7 +17,7 @@ You can either compile the firmware yourself (folder: /software/sources), or you
 - Navigate to the folder with the makefile.
 - Run "make". Among others, the hex and eep files are generated, which can then be uploaded into the ATmega.
 
-## Uploading firmware
+## Uploading Firmware
 - Make sure you have installed [avrdude](https://learn.adafruit.com/usbtinyisp/avrdude).
 - Connect your programmer to your PC and to the ICSP header of the device.
 - Open a terminal.
