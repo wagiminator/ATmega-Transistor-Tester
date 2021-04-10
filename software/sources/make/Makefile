@@ -364,13 +364,13 @@ INHIBIT_SLEEP_MODE = 0
 
 # Select your programmer type, speed and port, if you wish to use avrdude.
 # setting for DIAMEX ALL_AVR, Atmel AVRISP-mkII
-PROGRAMMER=avrispmkII
-BitClock=1.0
-PORT=usb
-# setting for USBasp
-#PROGRAMMER=usbasp
-#BitClock=20
+#PROGRAMMER=avrispmkII
+#BitClock=1.0
 #PORT=usb
+# setting for USBasp
+PROGRAMMER=usbasp
+BitClock=20
+PORT=usb
 # setting for ARDUINO MEGA, requires bootloader
 #PROGRAMMER=wiring
 #PORT = /dev/ttyACM0
