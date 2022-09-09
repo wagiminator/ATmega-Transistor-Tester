@@ -68,3 +68,4 @@ It should be noted that the test inputs do not have a protective circuit. A prot
 3. [Original Firmware](https://github.com/Mikrocontroller-net/transistortester)
 
 ![TransistorTester_pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATmega-Transistor-Tester/master/documentation/TransistorTester_pic2.jpg)
+![TransistorTester_pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATmega-Transistor-Tester/master/documentation/TransistorTester_pic3.jpg)
