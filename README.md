@@ -1,5 +1,5 @@
-# Transistor Tester based on ATmega328p
-The ATmega328p Transitor Tester is a pocket-sized version of the famous component tester developed by Markus Frejek and Karl-Heinz Kübbeler featuring automatic detection of NPN and PNP bipolar transistors, N- and P-channel MOSFETs, JFETs, diodes, double diodes, N- and P-IGBTs, thyristors, triacs, inductors, resistors and capacitors.
+# Transistor Tester based on ATmega328P
+The ATmega328P Transitor Tester is a pocket-sized version of the famous component tester developed by Markus Frejek and Karl-Heinz Kübbeler featuring automatic detection of NPN and PNP bipolar transistors, N- and P-channel MOSFETs, JFETs, diodes, double diodes, N- and P-IGBTs, thyristors, triacs, inductors, resistors and capacitors.
 
 - Project Video (YouTube): https://youtu.be/J4nZ0n5suDk
 - Design Files (EasyEDA): https://easyeda.com/wagiminator/y-atmega-transistortester-smd
@@ -41,31 +41,33 @@ It should be noted that the test inputs do not have a protective circuit. A prot
 ## Characteristics
 |Component|Measuring Range|
 |-|-|
-|Resistors|100mOhm – 50MOhm|
+|Resistors|100mΩ – 50MΩ|
 |Capacitors|35pF – 100mF|
-|Inductors|0.01mH – 20H|
+|Inductors|10µH – 20H|
 |Z-Diodes|max 4.5V|
 
-- One-key-operation
+- One-key-operation.
 - Three test pins for universal use.
 - Automated detection of NPN, PNP, N- and P-channel MOSFET, JFET, diodes und small thyristors, TRIAC.
 - Automated detection of pin assignment, this means the device-under-test can be connected to the tester in any order.
 - Measurement of hFE and base-emitter-voltage for bipolar junction transistors, also for Darlingtons.
 - Automated detection of protection diodes in bipolar junction transistors and MOSFETs.
 - Bipolar junction transistors are detected as a transistor with a parasitic transistor (NPNp = NPN + parasitic PNP).
-- Up to two resistors will be measured with a resolution down to 0.1 Ohm. The measurement range is up to 50 MOhm (Megaohm). Resistors below 10 Ohm will be measured with the ESR approach and a resolution of 0.01 Ohm. Beware: resolution is not accuracy.
-- Capacitors in the range 35pF (picofarad) to 100mF (millifarad) can be measured with a resolution down to 1 pF (0.01 pF for capacitors with lower capacity than 100 pF).
+- Up to two resistors will be measured with a resolution down to 0.1Ω. The measurement range is up to 50 MΩ. Resistors below 10Ω will be measured with the ESR approach and a resolution of 0.01Ω. Beware: resolution is not accuracy!
+- Capacitors in the range 35pF to 100mF can be measured with a resolution down to 1pF (0.01pF for capacitors with lower capacity than 100pF).
 - Resistors and capacitors will be displayed with their respective symbol, pin number and value.
 - Up to two diodes will also be displayed with their correctly aligned symbol, pin number and voltage drop.
 - If it's a single diode, the parasitic capacitance and reverse current will also be measured.
-- Inductances of 0.01 mH to 20 H can be detected and measured.
-- A measurement of ESR (Equivalent Series Resistance) of capacitors greater than 20 nF is built in. The resolution is 0.01 Ohm. For lower capacity values the accuracy of ESR result becomes worse.
-- Vloss of capacitors greater 5 nF is examined. With this it is possible to estimate its Q-factor.
+- Inductances of 10µH to 20H can be detected and measured.
+- A measurement of ESR (Equivalent Series Resistance) of capacitors greater than 20nF is built in. The resolution is 0.01Ω. For lower capacity values the accuracy of ESR result becomes worse.
+- Vloss of capacitors greater 5nF is examined. With this it is possible to estimate its Q-factor.
 
 # References, Links and Notes
 1. [Original Project Description](https://www.mikrocontroller.net/articles/AVR_Transistortester)
 2. [Original Documentation](https://github.com/Mikrocontroller-net/transistortester/raw/master/Doku/trunk/pdftex/english/ttester.pdf)
 3. [Original Firmware](https://github.com/Mikrocontroller-net/transistortester)
+4. [128x64 OLED on Aliexpress](http://aliexpress.com/wholesale?SearchText=128+64+0.96+oled+new+4pin)
+5. [MicroUSB Connector on Aliexpress](https://aliexpress.com/wholesale?SearchText=micro+usb+2pin+dip)
 
 ![TransistorTester_pic2.jpg](https://raw.githubusercontent.com/wagiminator/ATmega-Transistor-Tester/master/documentation/TransistorTester_pic2.jpg)
 ![TransistorTester_pic3.jpg](https://raw.githubusercontent.com/wagiminator/ATmega-Transistor-Tester/master/documentation/TransistorTester_pic3.jpg)
